@@ -1,14 +1,3 @@
---- origsrc/guake-0.4.1/src/Makefile.am	2009-12-01 05:50:46.000000000 -0600
-+++ src/guake-0.4.1/src/Makefile.am	2010-07-21 17:09:47.557321500 -0500
-@@ -4,7 +4,7 @@ guakedir = $(bindir)
- bin_SCRIPTS = guake guake-prefs
- 
- guakelibdir = $(libdir)/guake
--guakelib_DATA = \
-+guakelib_PYTHON = \
- 	guake.py \
- 	common.py \
- 	simplegladeapp.py \
 --- origsrc/guake-0.4.1/src/globalhotkeys/Makefile.am	2009-12-01 05:50:46.000000000 -0600
 +++ src/guake-0.4.1/src/globalhotkeys/Makefile.am	2010-07-21 17:05:43.557365500 -0500
 @@ -13,5 +13,5 @@ AM_CPPFLAGS = \

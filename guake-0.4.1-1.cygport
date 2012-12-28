@@ -1,8 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="Drop-down terminal for GNOME"
-HOMEPAGE="http://guake.org/"
-SRC_URI="http://guake.org/files/${P}.tar.gz"
-PATCH_URI="0.4.1-autotools.patch"
-
-DIFF_EXCLUDES="guake guake-prefs guake_globals.py"
