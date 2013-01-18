@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="guake"
 VERSION=0.4.4
-RELEASE=1
+RELEASE=2
 CATEGORY="GNOME Shells"
 SUMMARY="Drop-down terminal for GNOME"
 DESCRIPTION="Guake is a top-down terminal for Gnome (in the style of Yakuake
