@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="guake"
-VERSION=0.7.2
+VERSION=0.8.7
 RELEASE=1
 CATEGORY="GNOME Shells"
 SUMMARY="Drop-down terminal for GNOME"
@@ -9,6 +9,5 @@ DESCRIPTION="Guake is a top-down terminal for Gnome (in the style of Yakuake
 for KDE, Tilda or the terminal used in Quake)."
 HOMEPAGE="http://guake-project.org/"
 SRC_URI="https://github.com/guake/guake/archive/${VERSION}/guake-${VERSION}.tar.gz"
-PATCH_URI="0.4.1-autotools.patch"
 
 DIFF_EXCLUDES="guake guake-prefs globals.py"
